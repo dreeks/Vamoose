@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="https://github.com/dreeks/vamoose/issues"
+
+[[mods]]
+modId="vamoose"
+version="${file.jarVersion}"
+displayName="Vamoose"
+updateJSONURL="http://myurl.me/"
+displayURL="https://dreeks.xyz"
+logoFile="vamoose.png"
+credits="Thanks to the awesome Minecraft modding community which helped shape the game the way it is nowadays"
+authors="Team Dreeks"
+description='''
+Simple mod to add a teleportation system to Minecraft
+'''
+
+[[dependencies.vamoose]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+    
+[[dependencies.vamoose]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
